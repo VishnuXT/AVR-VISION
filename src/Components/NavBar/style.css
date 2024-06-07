@@ -1,13 +1,16 @@
-.bg {
-  background-color: rgba(240, 248, 255, 0);
-  display: grid;
+.nav {
+  display: flex;
+  background-color: transparent;
+  gap: 20px;
   justify-content: end;
-  font-family: venite adoremus;
-  font-weight: 400;
-  padding-right: 60px;
+  padding: 20px 60px;
+  
 }
-
-@font-face {
-  font-family: "venite adoremus";
-  src: url("../../Assests/VeniteAdoremusStraight-Yzo6v.ttf") format("ttf");
+.nav-icon{
+  cursor: pointer;
+  color: white;
+}
+.nav-icon-active{
+  color: black;
+  border-bottom: 3px solid white;
 }

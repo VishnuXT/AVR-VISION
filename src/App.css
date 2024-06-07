@@ -10,7 +10,10 @@ html {
 }
 
 @font-face {
-  font-family: 'venite adoremus';
-  src: url('./Assests/VeniteAdoremusStraight-Yzo6v.ttf') format('ttf'),
-       
+  font-family: "VeniteAdoremusStraight";
+  src: url("./Assests/VeniteAdoremusStraight-Yzo6v.ttf") format("ttf");
+}
+@font-face {
+  font-family: "veniteadoremus";
+  src: url("./Assests/VeniteAdoremus-rgRBA.ttf") format("ttf");
 }
