@@ -1,18 +1,15 @@
 import React from "react";
 import "./style.css";
 import homepage from "../../Assests/images/homepage-roboat.png";
-
+import text1 from "../../Assests/images/Group 1.png";
 
 const Home = () => {
   return (
     <div className="gradientdivision">
-      <img src={homepage} alt="avr img" />
-
-      <div className="wraper">
-        MAKE
-        <span className="header-1">YOUR VISION TO</span>
-        LIFE
-      </div>
+      <div className="himg"><img src={homepage} alt="avr img" /></div>
+      
+      <div className="text"> <img src={text1} alt="avr img" height={300} /></div>
+     
     </div>
   );
 };

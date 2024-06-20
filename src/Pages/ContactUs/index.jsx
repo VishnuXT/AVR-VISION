@@ -1,10 +1,9 @@
 import React from 'react'
-import "./style"
 
-const ContactUs = () => {
+const Contactus = () => {
   return (
-    <div>ContactUs</div>
+    <div>Contactus</div>
   )
 }
 
-export default ContactUs
+export default Contactus

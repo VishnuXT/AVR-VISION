@@ -1,0 +1,101 @@
+/* UIUX */
+.uiheader {
+  font-weight: bolder;
+  font-size: 52px;
+  font-family: veniteadoremus;
+  color: #1c3643;
+}
+
+.uiux-left {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+.uiimage {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #1c3643;
+}
+
+.webimage {
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+  color: #1c3643;
+}
+.charaimage {
+  position: absolute;
+  bottom: 6%;
+  right: 0;
+  color: #1c3643;
+}
+.services {
+  position: absolute;
+  top: 150px;
+  left: 50px;
+  box-shadow: 0px 0px rgb(0, 0, 0);
+}
+.uiux-trans {
+  position: relative;
+  left: 0;
+  animation-name: uiux-trans;
+  animation-duration: 1s;
+}
+
+@keyframes uiux-trans {
+  0% {
+    left: 70%;
+  }
+  100% {
+    left: 0;
+  }
+}
+.uiux-trans-img {
+  position: relative;
+  bottom: -25px;
+  right: 0;
+  animation-name: uiux-img-trans;
+  animation-duration: 1s;
+}
+
+@keyframes uiux-img-trans {
+  0% {
+    bottom: -150px;
+    right: -150px;
+  }
+  100% {
+    bottom: -25px;
+    right: 0;
+  }
+}
+.uiux-trans-top {
+  top: 150px;
+  animation-name: uiux-top-trans;
+  animation-duration: 1s;
+}
+
+@keyframes uiux-top-trans {
+  0% {
+    top: 350px;
+  }
+  100% {
+    top: 150px;
+  }
+}
+.uiux-trans-top {
+  box-shadow: 0px 0px rgb(0, 0, 0);
+  animation-name: uiux-text-trans;
+  animation-duration: 1s;
+  
+}
+@keyframes uiux-text-trans {
+  0% {
+    box-shadow: 10px 10px 10px #869598;
+    
+  }
+  100% {
+    
+    box-shadow: 0px 0px #869598;
+  }
+}
