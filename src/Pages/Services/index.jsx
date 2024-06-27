@@ -9,25 +9,43 @@ const Services = () => {
   return (
     <div>
       <div className="top">
-        <div className="nav-icon service-trans service-trans2 " onClick={() => navigate("/uiux")}>
+        <div
+          className="nav-icon service-trans service-trans2 "
+          onClick={() => navigate("/uiux")}
+        >
           UI/UX design
         </div>
-        <div className="nav-icon service-trans service-trans1" onClick={() => navigate("/Webdevelopment")}>
+        <div
+          className="nav-icon service-trans service-trans1"
+          onClick={() => navigate("/Webdevelopment")}
+        >
           Web development
         </div>
-        <div className="nav-icon service-trans service-trans2" onClick={() => navigate("/AppDevelopment")}>
+        <div
+          className="nav-icon service-trans service-trans2"
+          onClick={() => navigate("/AppDevelopment")}
+        >
           App Development
         </div>
-        <div className="nav-icon service-trans service-trans1" onClick={() => navigate("/GraphicsDesign")}>
+        <div
+          className="nav-icon service-trans service-trans1"
+          onClick={() => navigate("/GraphicsDesign")}
+        >
           Graphics Design
         </div>
-        <div className="nav-icon service-trans service-trans2" onClick={() => navigate("/CharacterDesign")}>
-          Character Design
+        <div
+          className="nav-icon service-trans service-trans2"
+          onClick={() => navigate("/VedioEditing")}
+        >
+          Vedio Editing
         </div>
-        <div className="nav-icon service-trans service-trans1" onClick={() => navigate("/GameDevelopment")}>
+        {/* <div className="nav-icon service-trans service-trans1" onClick={() => navigate("/GameDevelopment")}>
           Game Development
-        </div>
-        <div className="nav-icon service-trans service-trans2" onClick={() => navigate("/3DModeling")}>
+        </div> */}
+        <div
+          className="nav-icon service-trans service-trans1"
+          onClick={() => navigate("/3DModeling")}
+        >
           3D Modeling
         </div>
       </div>

@@ -1,0 +1,62 @@
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 5fr 5fr 1fr;
+}
+.contact-text-2 {
+  text-transform: uppercase;
+  font-family: "Venite Adoremus Regular";
+  font-weight: 400;
+  color: #1c3643;
+  font-size: 68px;
+}
+.contact-text-1 {
+  text-transform: uppercase;
+  font-family: "Venite Adoremus Regular";
+  font-weight: 400;
+  color: #1c3643;
+  font-size: 46px;
+}
+.contact-underline {
+  border-bottom: 8px solid #2a2a2a59;
+  border-radius: 5px;
+}
+.contact-text {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+.contact-text-3 {
+  text-transform: uppercase;
+  font-family: "Venite Adoremus Regular";
+  font-weight: 300;
+  padding-top: 25px;
+  color: #1e1e1e80;
+  font-size: 26px;
+}
+.contactus1 {
+  padding-top: 25px;
+  font-size: 20px;
+  font-family: "Venite Adoremus Regular";
+}
+.contactus2 {
+  font-size: 16px;
+  font-family: "Venite Adoremus Regular";
+  font-weight: 300;
+}
+.left-pad {
+  padding-left: 20px;
+}
+.left-pad1 {
+  padding-left: 30px;
+  color: rgb(0, 0, 0);
+}
+.gmail-link {
+  display: inline-block;
+  padding: 10px 20px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: "Venite Adoremus Regular";
+  font-size: 20px;
+  transition: background-color 0.3s;
+}

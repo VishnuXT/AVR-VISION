@@ -1,14 +1,14 @@
 /* UIUX */
 .uiheader {
-  font-weight: bolder;
+  font-weight: 500;
   font-size: 52px;
-  font-family: veniteadoremus;
+  font-family: 'Venite Adoremus Regular';
   color: #1c3643;
 }
 
 .uiux-left {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   justify-items: center;
 }
 .uiimage {
@@ -49,6 +49,23 @@
   }
   100% {
     left: 0;
+  }
+}
+.charaimagetrans{
+  position: relative;
+  bottom: -25px;
+  right: -25px;
+  animation-name: char-img-trans;
+  animation-duration: 1s;
+}
+@keyframes char-img-trans {
+  0% {
+    bottom: -150px;
+    right: -150px;
+  }
+  100% {
+    bottom: -25px;
+    right: 0;
   }
 }
 .uiux-trans-img {
@@ -97,5 +114,79 @@
   100% {
     
     box-shadow: 0px 0px #869598;
+  }
+}
+.web-trans-img{
+  position: relative;
+  bottom: -25px;
+  animation-name: web-img-trans;
+  animation-duration: 1s;
+}
+@keyframes web-img-trans {
+  0% {
+    bottom: -400px;
+    
+  }
+  100% {
+    bottom: -25px;
+   
+  }
+}
+
+.content{
+  padding-top: 10px;
+  font-weight: 500;
+  font-size: 30px;
+  font-family: 'Venite Adoremus Regular';
+  color: #000000B2;
+
+}
+
+.app-trans-img{
+  
+  right: 0;
+  animation-name: app-img-trans;
+  animation-duration: 1s;
+}
+@keyframes app-img-trans {
+  0% {
+    right: -300px;
+    
+  }
+  100% {
+    right: 0;
+   
+  }
+}
+.graph-trans-img{
+  
+  bottom: 0px;
+  animation-name: graph-img-trans;
+  animation-duration: 1s;
+}
+@keyframes graph-img-trans {
+  0% {
+    bottom: -400px;
+    
+  }
+  100% {
+    bottom: 0px;
+   
+  }
+}
+.model-trans-img{
+  
+  bottom: 0px;
+  animation-name: model-img-trans;
+  animation-duration: 1s;
+}
+@keyframes model-img-trans {
+  0% {
+    bottom: -400px;
+    
+  }
+  100% {
+    bottom: 0px;
+   
   }
 }

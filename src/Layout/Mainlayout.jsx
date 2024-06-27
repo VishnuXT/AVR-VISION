@@ -10,7 +10,7 @@ const Mainlayout = () => {
     <div>
       <div className="nav-wrpaper">
         <div className="gradient-left">
-          <img src={logo} alt="avr img" />
+          <img src={logo} alt="avr img" height={50} />
         </div>
         <div className="gradient-right">
         <NavBar/>

@@ -10,7 +10,7 @@
 .about {
   font-size: 50px;
   text-transform: uppercase;
-  font-family: VeniteAdoremusStraight;
+  font-family: 'Venite Adoremus Regular';
   font-weight: bold;
   display: grid;
 }
@@ -57,41 +57,7 @@
   display: flex;
   justify-content: space-between;
 }
-.imgleft {
-  position: relative;
-  left: 0px;
-  bottom: 0;
-  animation-name: aboutleft;
-  animation-duration: 1s;
-}
-@keyframes aboutleft {
-  0% {
-    left: -200px;
-    bottom: -200px;
-  }
-  100% {
-    left: 0px;
-    bottom: 0;
-  }
-}
 
-.imgright {
-  position: relative;
-  right: 0px;
-  bottom: 0;
-  animation-name: aboutright;
-  animation-duration: 1s;
-}
-@keyframes aboutright {
-  0% {
-    right: -200px;
-    bottom: -200px;
-  }
-  100% {
-    right: 0px;
-    bottom: 0;
-  }
-}
 
 .about1 {
   position: relative;

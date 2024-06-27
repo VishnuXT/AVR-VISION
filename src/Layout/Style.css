@@ -18,7 +18,7 @@
   width: 200px;
 }
 .gradient-left {
-  background-color: #ffffff ;
+  background-color: #ffffff;
   border-bottom-right-radius: 38px;
   height: 76px;
   width: 200px;
@@ -38,5 +38,21 @@
   margin-left: 30px;
   margin-top: 30px;
   display: flex;
-  background-image: linear-gradient(white 0% ,white 50%,#8c9b9d 50%, #8c9b9d 100%);
+  background-image: linear-gradient(
+    white 0%,
+    white 50%,
+    #8c9b9d 50%,
+    #8c9b9d 100%
+  );
+}
+.pointer {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 20px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: "Venite Adoremus Regular";
+  font-size: 20px;
+  transition: background-color 0.3s;
 }
