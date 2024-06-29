@@ -35,9 +35,9 @@ const Contactus = () => {
             <span className="left-pad1  ">
               <WhatsAppButton
                 phoneNumber="+91 9207987475"
-                message="Hello, I need assistance with your service."
+                message="Hello,Is this AVR VISION "
               />
-              {/*  <a href="tel:+91 92079 87475">+91 92079 87475</a> */ }
+    
             </span>
           </div>
           <div className="contactus2">
