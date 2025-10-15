@@ -1,6 +1,7 @@
 import React from "react";
-import "./style.css";
 import abouttext from "../../Assests/images/about1.png";
+import "./style.css";
+import "./About.css";
 import aboutimg1 from "../../Assests/images/about2.png";
 import aboutimg2 from "../../Assests/images/about3.png";
 import aboutimg3 from "../../Assests/images/about4.png";

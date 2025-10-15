@@ -1,0 +1,74 @@
+.aboutgridding {
+  display: grid;
+  grid-template-columns: 1fr 2fr 0.25fr;
+  margin-top: -150px;
+}
+.firstline {
+  display: flex;
+  justify-content: flex-end;
+}
+.about {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-family: "Venite Adoremus Regular";
+  font-weight: bold;
+  display: grid;
+}
+.about1 {
+  display: grid;
+  justify-content: end;
+}
+.about2 {
+  display: grid;
+  justify-content: end;
+  align-items: end;
+  color: #1c3643;
+}
+.about4 {
+  display: grid;
+  align-items: end;
+  color: #ffffff;
+}
+.about3 {
+  display: grid;
+  align-items: end;
+  color: #ffffff;
+}
+.about7 {
+  margin-left: 15px;
+  display: grid;
+  align-items: end;
+  color: #1c3643;
+}
+.about6 {
+  display: grid;
+  align-items: end;
+  color: #ffffff;
+  margin-left: 15px;
+}
+.about5 {
+  display: grid;
+  align-items: end;
+  color: #1c3643;
+}
+.end {
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about1 {
+  position: relative;
+  animation-name: aboutr1;
+  animation-duration: 1s;
+  left: 0;
+}
+@keyframes aboutr1 {
+  0% {
+    left: -50px;
+  }
+  100% {
+    left: 0;
+  }
+}

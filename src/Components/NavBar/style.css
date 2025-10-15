@@ -1,18 +1,117 @@
+/* Base NavBar */
 .nav {
   display: flex;
-  background-color: transparent;
-  gap: 20px;
-  justify-content: end;
+  justify-content: space-between;
+  align-items: center;
   padding: 20px 60px;
-  font-weight: 400;
-  font-family: Venite Adoremus Straight Regular;
+  font-family: "Venite Adoremus Straight Regular";
+  color: white;
+  background: transparent;
+  position: relative;
+  z-index: 10;
 }
-.nav-icon{
+
+.nav-logo {
+  font-weight: bold;
+  font-size: 22px;
   cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-icon {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-icon:hover {
+  color: #cfd3d4;
+}
+
+.nav-icon-active {
+  color: black;
+  border-bottom: 3px solid white;
+  padding-bottom: 2px;
+}
+
+/* Hamburger button */
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+  color: white;
+  z-index: 101;
+}
+
+/* Full-screen sidebar (hidden by default) */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  backdrop-filter: blur(12px) brightness(0.8);
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: all 0.5s ease;
+  z-index: 100;
+}
+
+.sidebar.open {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Sidebar content */
+.sidebar-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  font-size: 28px;
   color: white;
 }
 
-.nav-icon-active{
-  color: black;
-  border-bottom: 3px solid white;
+.sidebar-item {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.sidebar-item:hover {
+  color: #d1d5db;
+}
+
+.sidebar-item.active {
+  color: #000;
+  border-bottom: 2px solid white;
+}
+
+/* Responsive Styles */
+@media (max-width: 900px) {
+  .nav-links {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    font-family: "Venite Adoremus Straight Regular";
+    color: white;
+    background: transparent;
+    position: absolute;
+    right: 0;
+    z-index: 10;
+  }
 }
